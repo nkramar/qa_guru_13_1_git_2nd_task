@@ -14,7 +14,9 @@ public class FirstTest {
     Assertions.assertTrue(3 >=1);
   }
 
-
+  @Test
+  void thirdTest() {
+    Assertions.assertTrue(9>=8);
   }
-
+}
 
